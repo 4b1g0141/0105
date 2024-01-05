@@ -1,0 +1,48 @@
+class Luggage:
+     #行李類別的建構子
+    def __init__(self, id, weight,Departure,destination,name):
+        self._id = id
+        #目前的self._行李編號 = 行李編號
+        self._weight = weight
+        #目前的self._行李重量 = 行李重量
+        self._Departure = Departure
+        #目前的self._出發地 = 出發地
+        self._destination = destination
+        #目前的self._目的地 = 目的地
+        self._name = name
+        #目前的self._名字 = 名字
+ 
+s1 = Luggage('15', '68kg', '台灣','日本','小明')
+print("行李編號=",s1._id)
+print("行李重量=",s1._weight)
+print("出發地=",s1._Departure)
+print("目的地=",s1._destination)
+print("名字=",s1._name)
+
+class Documents:
+     #登機證類別的建構子
+    def __init__(self, name2, id2,time2,door2,seat2,count2,id):
+        self._name2 = name2
+        #目前的self._姓名 = 姓名
+        self._id2 = id2
+        #目前的self._證件編號 = 證件編號
+        self._time2 = time2
+        #目前的self._登機時間 = 登機時間
+        self._door2 = door2
+        #目前的self._登機門編號 = 登機門編號
+        self._seat2 = seat2
+        #目前的self._座位位置 = 座位位置
+        self._count2 = count2
+        #目前的self._行李件數 = 行李件數
+        self._id = id
+        #目前的self._行李ID = 行李ID
+
+s1 = Documents('小王', '4b1g001', '九時','06','第一排','3','002')
+print("姓名=",s1._name2)
+print("證件編號=",s1._id2)
+print("登機時間=",s1._time2)
+print("登機門編號=",s1._door2)
+print("座位位置=",s1._seat2)
+print("行李件數=",s1._count2)
+print("行李ID=",s1._id)
+
